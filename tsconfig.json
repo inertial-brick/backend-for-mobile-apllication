@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                 
+    "module": "commonjs",                              
+    "esModuleInterop": true,                           
+    "forceConsistentCasingInFileNames": true,          
+    "strict": true,                                    
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",    // build JS ide ovdje
+    "rootDir": ".",      // root folder s TS fajlovima
+    "skipLibCheck": true
+  }, 
+   "include": ["*.ts"]
+}
